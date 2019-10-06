@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Template</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial scale=1">
+	<style type="text/css">
+		header{
+			background: #666;
+			padding: 30px;
+			text-align: center;
+			font-size: 35px;
+			color: whitel
+		}
+		nav{
+			float: left;
+			width: 30%;
+			height: 300px;
+			background: #ccc;
+			padding: 20px;
+			}
+			nav ul{
+				list-style-type: none;
+				padding: 0;
+
+			}
+			article{
+				float: left;
+				padding: 20px;
+				width: 70%;
+				background-color: #f1f1ff1;
+				height: 300px;
+			}
+			section:after{
+				content: " ";
+				display: table;
+				clear: both;
+			}
+			footer{
+				background-color: #777;
+				padding: 10px;
+				text-align: center;
+				color: white;
+			}
+			@media(max-width:600px){
+				nav,article{
+					width: 100%;
+					height:auto;
+				}
+			}
+	</style>
+</head>
+<body>
+	<h2>CSS Layout Float</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<header>
+		<h2>Cities</h2>
+	</header>
+	<section>
+		<nav>
+			<ul>
+				<li><a href="#">Jessore</a></li>
+				<li><a href="#">Khulna</a></li>
+				<li><a href="#">Dhaka</a></li>
+			</ul>
+		</nav>
+		<article>
+			<h1>Jessore</h1>
+			<p>Jessoe i the big city of Bangladesh. It is the most populars city in the Bangladesh</p>
+			<p>
+				There are big river in Jessore. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</article>
+	</section>
+	<footer>
+		<p>Footer</p>
+	</footer>
+
+</body>
+</html>
